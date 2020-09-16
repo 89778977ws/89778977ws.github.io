@@ -140,9 +140,9 @@ $(document).keydown(function(e){
 			keys.push(e.keyCode);
 		}
 		//射击
-		if(e.keyCode == keyboard.SPACE && player1.lives > 0){
+		if(e.keyCode == keyboard.J && player1.lives > 0){
 			player1.shoot(BULLET_TYPE_PLAYER);
-		}else if(e.keyCode == keyboard.ENTER && player2.lives > 0){
+		}else if(e.keyCode == keyboard.5 && player2.lives > 0){
 			player2.shoot(BULLET_TYPE_ENEMY);
 		}else if(e.keyCode == keyboard.N){
 			nextLevel();
