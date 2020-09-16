@@ -5,15 +5,15 @@ var Map = function(wCtx,gCtx){
 	this.wallCtx = wCtx;
 	this.grassCtx = gCtx;
 	
-	this.offsetX = 3200; //主游戏区的X偏移量
-	this.offsetY = 16;//主游戏区的Y偏移量
+	this.offsetX = 320; //主游戏区的X偏移量
+	this.offsetY = 160;//主游戏区的Y偏移量
 	this.wTileCount = 26; //主游戏区的宽度地图块数
 	this.HTileCount = 26;//主游戏区的高度地图块数
 	this.tileSize = 16;	//地图块的大小
 	this.homeSize = 32; //家图标的大小
 	this.num = new Num(this.wallCtx);
-	this.mapWidth = 416;
-	this.mapHeight = 416;
+	this.mapWidth = 800;
+	this.mapHeight = 800;
 	
 	this.setMapLevel = function(level){
 		this.level = level;
