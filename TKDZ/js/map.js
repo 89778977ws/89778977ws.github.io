@@ -5,7 +5,7 @@ var Map = function(wCtx,gCtx){
 	this.wallCtx = wCtx;
 	this.grassCtx = gCtx;
 	
-	this.offsetX = 32; //主游戏区的X偏移量
+	this.offsetX = 3200; //主游戏区的X偏移量
 	this.offsetY = 16;//主游戏区的Y偏移量
 	this.wTileCount = 26; //主游戏区的宽度地图块数
 	this.HTileCount = 26;//主游戏区的高度地图块数
